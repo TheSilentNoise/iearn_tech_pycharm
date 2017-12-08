@@ -74,16 +74,18 @@ def signInLogin():
 
         data = cursor.fetchall()
         print(data)
-        username =""
+        username = ""
+        userId = ""
         for row in data:
             print "%s " % row[1]
             username = row[1]
+            userId = row[0]
 
         if data is None:
             return json.dumps({'html':'<span>Login UnSuccessful</span>'})
             conn.close()
         else:
-            return render_template('UserProfile.html', name = username)
+            return render_template('UserProfile.html', name = username, id = userId)
     else:
         return json.dumps({'html': '<span>Enter the required fields</span>'})
 
