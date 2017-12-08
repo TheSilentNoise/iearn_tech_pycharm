@@ -10,7 +10,7 @@ def show_blog(postid):
         return "Blog Number %d" %postid
 
 @app.route("/hello/<name>/<int:postid>")
-def show_hello_name(name,postid):
+def show_hello_name(postid):
         return "This is your post number %d" %postid
 
 @app.route("/hello/<float:revisionid>")
