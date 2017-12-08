@@ -1,0 +1,13 @@
+USE silent_noise;
+
+DROP TABLE IF EXISTS user_info;
+
+CREATE TABLE user_info(
+	user_id bigint NOT NULL auto_increment,
+    user_name nvarchar(45) NULL,
+    user_username nvarchar(30) NULL,
+    user_password nvarchar(30) NULL,
+    primary key(user_id)
+);
+
+SELECT * FROM user_info;
