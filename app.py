@@ -71,7 +71,6 @@ def signInLogin():
         query = "SELECT * FROM user_info WHERE user_username = '"+_email+"' AND '"+_password+"';"
         print(query)
         cursor.execute(query)
-
         data = cursor.fetchall()
         print(data)
         username = ""
