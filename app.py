@@ -15,7 +15,7 @@ app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
 
-@app.route('/')
+@app.route('/main')
 def index():
     return render_template('main.html')
 
