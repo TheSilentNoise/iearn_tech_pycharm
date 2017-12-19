@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Child Jinja2</title>
+</head>
+<body>
+    {% extends "jinja_template.html" %}   <!-- Inheritance -->
+    {% block content %}
+    <p>Hello your name is {{ name }}!</p>
+    {% endblock %}
+</body>
+</html>
