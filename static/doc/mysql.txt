@@ -11,3 +11,14 @@ CREATE TABLE user_info(
 );
 
 SELECT * FROM user_info;
+
+
+#############################Flask SQLAlchemy#######################################
+
+CREATE TABLE `book` (
+  `title` int(11) NOT NULL,
+  PRIMARY KEY (`title`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+##############################################################################

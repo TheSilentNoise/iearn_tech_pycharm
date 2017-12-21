@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9038bf7b-d851-4d96-be72-94549ce8b104" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/jinja.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/child_jinja.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/jinja_template.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bookmanager.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/home.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/static/doc/mysql.txt" afterPath="$PROJECT_DIR$/static/doc/mysql.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +20,7 @@
       <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="663">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
@@ -36,6 +37,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="bookmanager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookmanager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="child_jinja.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/child_jinja.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jinja_template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jinja_template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/jinja_template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -78,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/doc/mysql.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="365">
+              <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -94,30 +120,6 @@
             <state relative-caret-position="119">
               <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-              <folding>
-                <element signature="e#1809#1815#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/signin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-              <folding>
-                <element signature="e#1641#1647#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,10 +148,16 @@
         <option value="$PROJECT_DIR$/templates/signin.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/UserProfile.html" />
-        <option value="$PROJECT_DIR$/static/doc/mysql.txt" />
         <option value="$PROJECT_DIR$/jinja.py" />
         <option value="$PROJECT_DIR$/templates/child_jinja.html" />
         <option value="$PROJECT_DIR$/templates/jinja_template.html" />
+        <option value="$PROJECT_DIR$/src/apps.py" />
+        <option value="$PROJECT_DIR$/src/wsgi.py" />
+        <option value="$PROJECT_DIR$/sqlalchemy.py" />
+        <option value="$PROJECT_DIR$/sqlalchem.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/bookmanager.py" />
+        <option value="$PROJECT_DIR$/static/doc/mysql.txt" />
       </list>
     </option>
   </component>
@@ -194,7 +202,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,12 +212,19 @@
             <path>
               <item name="iearn_tech" type="b2602c69:ProjectViewProjectNode" />
               <item name="iearn_tech" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iearn_tech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iearn_tech" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jinja">
+  <component name="RunManager" selected="Python.bookmanager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,6 +267,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FlaskTutorial" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="bookmanager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlaskTutorial" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookmanager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,16 +326,35 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="py.test in sqlalchemy.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlaskTutorial" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sqlalchemy.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hello" />
       <item index="1" class="java.lang.String" itemvalue="Python.app" />
       <item index="2" class="java.lang.String" itemvalue="Python.jinja" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in sqlalchemy.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.bookmanager" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.jinja" />
-        <item index="1" class="java.lang.String" itemvalue="Python.app" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hello" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.bookmanager" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in sqlalchemy.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.jinja" />
+        <item index="3" class="java.lang.String" itemvalue="Python.app" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -363,22 +414,46 @@
       <option name="project" value="LOCAL" />
       <updated>1512735669716</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updating Jinja Template POC">
+      <created>1513680681637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513680681637</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_sqlalchemy_py - 2017.12.20 at 16h 44m 41s.xml">
+      <configuration name="py.test in sqlalchemy.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_sqlalchemy_py - 2017.12.20 at 16h 45m 40s.xml">
+      <configuration name="py.test in sqlalchemy.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_sqlalchemy_py - 2017.12.20 at 16h 45m 51s.xml">
+      <configuration name="py.test in sqlalchemy.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_sqlalchemy_py - 2017.12.20 at 17h 09m 58s.xml">
+      <configuration name="py.test in sqlalchemy.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_sqlalchemy_py - 2017.12.21 at 12h 01m 08s.xml">
+      <configuration name="py.test in sqlalchemy.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.49121523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861635" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -424,80 +499,18 @@
     <MESSAGE value="Hidden Field Added in UserProfile Page" />
     <MESSAGE value="Mysql Table Creation" />
     <MESSAGE value="Files in respective Directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files in respective Directory" />
+    <MESSAGE value="Updating Jinja Template POC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Jinja Template POC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-          <folding>
-            <element signature="e#72#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="15" lean-forward="false" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/doc/mysql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/UserProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#1809#1815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#1809#1815#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#1809#1815#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#1809#1815#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,9 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="75" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#1809#1815#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="e#1641#1647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,14 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/doc/mysql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -833,16 +807,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinja.py">
+    <entry file="file://$PROJECT_DIR$/src/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/src/apps.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements/base.txt" />
+    <entry file="file://$PROJECT_DIR$/templates/jinja_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -855,10 +833,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jinja_template.html">
+    <entry file="file://$PROJECT_DIR$/sqlalchemy.py" />
+    <entry file="file://$PROJECT_DIR$/jinja.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#td#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#td#2;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/doc/mysql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding />
         </state>
       </provider>
